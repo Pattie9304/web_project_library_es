@@ -53,7 +53,7 @@
   /* Agrega las propiedades flex aquí */
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .header__title {
@@ -123,21 +123,19 @@
   color: #ffffff;
 }
 
-/* Agrega la regla CSS para tu nueva clase aquí. Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos */
 .staff__cards
 {
   max-width: 760px;
   margin:auto;
   display:flex;
   flex-wrap:wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 40px;
   list-style-type: none;
   padding-left: 0;
   margin-top: 68px;
   margin-bottom: 0;
 }
-
 
 .card {
   background-color: #fff;
