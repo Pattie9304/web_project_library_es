@@ -53,7 +53,7 @@
   /* Agrega las propiedades flex aquí */
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .header__title {
