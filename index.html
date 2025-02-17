@@ -11,159 +11,299 @@
 
   <body>
     <div class="page">
-    <header class="header">
-      <nav class="nav">
-        <img
-          src="./images/logo_white.svg"
-          alt="Logotipo de la Biblioteca Triple Peaks"
-          class="nav__logo" />
-        <ul class="nav__links">
-          <li> <a class="nav__link" href="#staff">Los preferidos de nuestros lectores</a> </li>
-          <li> <a class="nav__link" href="#events">Eventos</a> </li>
-          <li> <a class="nav__link" href="#">Conviértete en miembro</a> </li>
-          <li> <a class="nav__link" href="#">Contactos</a> </li>
-        </ul>
-      </nav>
-      <div class="header__content">
-        <div>
-          <h1 class="header__title">Bienvenidos a la biblioteca Triple Peaks</h1>
-          <p class="header__description">
-            ¡Nos complace abrir las puertas de nuestra biblioteca a todos! Ven y amplía
-            tus conocimientos sobre desarrollo, o simplemente ven a trabajar o
-            estudiar con nosotros. ¡Este es un lugar genial para estudiantes!
-          </p>
-        </div>
-        <img
-          src="./images/inside_the_library.png"
-          alt="Ilustración 'Dentro de la biblioteca'"
-          class="header__image"
-        />
-      </div>
-      <div class="header__footer">
-        <p class="header__address">Triple Peaks, 200 Success Avenue</p>
-      </div>
-    </header>
-
-    <main class="content">
-      <section class="staff" id="staff">
-        <h2 class="staff__title">Los preferidos de nuestros lectores</h2>
-        <p class="staff__subtitle">Que nuestros lectores y lectoras aman</p>
-        <ul class="staff__cards">
-          <li class="card">
-            <div class="card__content">
-              <h3 class="card__title">El día que el perro dijo "¡Quiquiriquí!"</h3>
-              <p class="card__text">
-                Durante una gran tormenta, todos los animales salen volando por los aires. Cuando aterrizan, ¡el pato dice "muuu", el ganso dice "oink" y el perro dice "kikirikí"!
-              </p>
-              <p class="card__footer">
-                David McPhail
-              </p>
-            </div>
-          </li>
-
-          <li class="card">
-            <div class="card__content">
-              <h3 class="card__title">
-                Divergente
-              </h3>
-              <p class="card__text">
-                Perfecto para los fanáticos de las series Los juegos del hambre y El corredor del laberinto, Divergente y sus secuelas, Insurgente y Leal , son la apasionante historia de un mundo distópico transformado por el coraje, el autosacrificio y el amor. Los fanáticos de la película Divergente encontrarán que el libro está repleto de tanta profundidad emocional y acción emocionante como la película, todo contado en un lenguaje hermoso y rico.
-              </p>
-              <p class="card__footer">
-                Veronica Roth
-              </p>
-            </div>
-          </li>
-
-          <li class="card">
-            <div class="card__content">
-              <h3 class="card__title">
-                House on Mango Street
-              </h3>
-              <p class="card__text">
-                “Cisneros recurre a su rica herencia [latina]... y seduce con una prosa precisa y sobria, creando personajes inolvidables que queremos sacar de la página. No solo es una escritora talentosa, sino absolutamente esencial”. — The New York Times Book Review La casa en Mango Street es una de las novelas más preciadas de los últimos cincuenta años.
-              </p>
-              <p class="card__footer">Sandra Cisneros</p>
-            </div>
-          </li>
-
-          <li class="card">
-            <div class="card__content">
-              <h3 class="card__title">
-                Cien años de soledad
-              </h3>
-              <p class="card__text">
-                “Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano Buendía había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo”.
-              </p>
-              <p class="card__footer">Gabriel García Márquez</p>
-            </div>
-          </li>
-        </ul>
-      </section>
-
-      <section id="events" class="events">
-        <div class="events__content">
-          <h2 class="events__heading">Próximos eventos:</h2>
-          <h3 class="events__title">
-            En honor de Joan Feynman: mujeres en la astrofísica
-          </h3>
-          <div class="event-info events__info-section">
-            <div class="event-info__item">
-              <img
-                src="./images/icon_calendar.svg"
-                alt="Calendar icon"
-                class="event-info__icon"
-              />
-              <p class="event-info__text">Lunes 12 de enero</p>
-            </div>
-            <div class="event-info__item">
-              <img
-                src="./images/icon_pin.svg"
-                alt="Pin icon"
-                class="event-info__icon"
-              />
-              <p class="event-info__text">
-                Sala de conferencias y virtual de la biblioteca Triple Peaks
-              </p>
-            </div>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Logotipo de la Biblioteca Triple Peaks"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#staff"
+                >Los preferidos de nuestros lectores</a
+              >
+            </li>
+            <li><a class="nav__link" href="#events">Eventos</a></li>
+            <li>
+              <a class="nav__link" href="#membership">Conviértete en miembro</a>
+            </li>
+            <li><a class="nav__link" href="#contacts">Contactos</a></li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">
+              Bienvenidos a la biblioteca Triple Peaks
+            </h1>
+            <p class="header__description">
+              ¡Nos complace abrir las puertas de nuestra biblioteca a todos! Ven
+              y amplía tus conocimientos sobre desarrollo, o simplemente ven a
+              trabajar o estudiar con nosotros. ¡Este es un lugar genial para
+              estudiantes!
+            </p>
           </div>
-          <p class="events__description">
-            En este evento, en el que celebramos el nombre de nuestra biblioteca, nuestra
-            invitada nos llevará a través de un viaje para conocer a algunas de las mujeres
-            investigadoras más importantes en el mundo de la ciencia espacial. Es
-            fácil caer en la falsa idea de que este campo está principalmente
-            dominado por hombres, pero nuestra conferencia busca cambiar esa noción y
-            probar que no ha sido así desde, al menos, el siglo
-            XVII.
-          </p>
-          <a href="#" class="events__more">Más eventos &rarr;</a>
+          <img
+            src="./images/inside_the_library.png"
+            alt="Ilustración 'Dentro de la biblioteca'"
+            class="header__image"
+          />
         </div>
-         <div class="events__cover">
-            <img src="./images/cafe.png" alt="Cafe" class="events__image">
+        <div class="header__footer">
+          <p class="header__address">Triple Peaks, 200 Success Avenue</p>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="staff" id="staff">
+          <h2 class="staff__title">Los preferidos de nuestros lectores</h2>
+          <p class="staff__subtitle">Que nuestros lectores y lectoras aman</p>
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">
+                  El día que el perro dijo "¡Quiquiriquí!"
+                </h3>
+                <p class="card__text">
+                  Durante una gran tormenta, todos los animales salen volando
+                  por los aires. Cuando aterrizan, ¡el pato dice "muuu", el
+                  ganso dice "oink" y el perro dice "kikirikí"!
+                </p>
+                <p class="card__footer">David McPhail</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Divergente</h3>
+                <p class="card__text">
+                  Perfecto para los fanáticos de las series Los juegos del
+                  hambre y El corredor del laberinto, Divergente y sus secuelas,
+                  Insurgente y Leal , son la apasionante historia de un mundo
+                  distópico transformado por el coraje, el autosacrificio y el
+                  amor. Los fanáticos de la película Divergente encontrarán que
+                  el libro está repleto de tanta profundidad emocional y acción
+                  emocionante como la película, todo contado en un lenguaje
+                  hermoso y rico.
+                </p>
+                <p class="card__footer">Veronica Roth</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">House on Mango Street</h3>
+                <p class="card__text">
+                  “Cisneros recurre a su rica herencia [latina]... y seduce con
+                  una prosa precisa y sobria, creando personajes inolvidables
+                  que queremos sacar de la página. No solo es una escritora
+                  talentosa, sino absolutamente esencial”. — The New York Times
+                  Book Review La casa en Mango Street es una de las novelas más
+                  preciadas de los últimos cincuenta años.
+                </p>
+                <p class="card__footer">Sandra Cisneros</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Cien años de soledad</h3>
+                <p class="card__text">
+                  “Muchos años después, frente al pelotón de fusilamiento, el
+                  coronel Aureliano Buendía había de recordar aquella tarde
+                  remota en que su padre lo llevó a conocer el hielo”.
+                </p>
+                <p class="card__footer">Gabriel García Márquez</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section id="events" class="events">
+          <div class="events__content">
+            <h2 class="events__heading">Próximos eventos:</h2>
+            <h3 class="events__title">
+              En honor de Joan Feynman: mujeres en la astrofísica
+            </h3>
+            <div class="event-info events__info-section">
+              <div class="event-info__item">
+                <img
+                  src="./images/icon_calendar.svg"
+                  alt="Calendar icon"
+                  class="event-info__icon"
+                />
+                <p class="event-info__text">Lunes 12 de enero</p>
+              </div>
+              <div class="event-info__item">
+                <img
+                  src="./images/icon_pin.svg"
+                  alt="Pin icon"
+                  class="event-info__icon"
+                />
+                <p class="event-info__text">
+                  Sala de conferencias y virtual de la biblioteca Triple Peaks
+                </p>
+              </div>
+            </div>
+            <p class="events__description">
+              En este evento, en el que celebramos el nombre de nuestra
+              biblioteca, nuestra invitada nos llevará a través de un viaje para
+              conocer a algunas de las mujeres investigadoras más importantes en
+              el mundo de la ciencia espacial. Es fácil caer en la falsa idea de
+              que este campo está principalmente dominado por hombres, pero
+              nuestra conferencia busca cambiar esa noción y probar que no ha
+              sido así desde, al menos, el siglo XVII.
+            </p>
+            <a href="#" class="events__more">Más eventos &rarr;</a>
+          </div>
+          <div class="events__cover">
+            <img src="./images/cafe.png" alt="Cafe" class="events__image" />
             <div class="person person_name_feynman">
               <p class="person__caption">Joan Feynman</p>
-              <img src="./images/person_feynman.png" alt="Joan Feynman" class="person__image person__image_size_l">
+              <img
+                src="./images/person_feynman.png"
+                alt="Joan Feynman"
+                class="person__image person__image_size_l"
+              />
             </div>
             <div class="person person_name_tarter">
               <p class="person__caption">Jill Tarter</p>
-              <img src="./images/person_tarter.png" alt="Jill Tarter" class="person__image person__image_size_m">
+              <img
+                src="./images/person_tarter.png"
+                alt="Jill Tarter"
+                class="person__image person__image_size_m"
+              />
             </div>
             <div class="person person_name_burbidge">
               <p class="person__caption">Margaret Burbidge</p>
-              <img src="./images/person_burbidge.png" alt="Margaret Burbidge" class="person__image person__image_size_m">
+              <img
+                src="./images/person_burbidge.png"
+                alt="Margaret Burbidge"
+                class="person__image person__image_size_m"
+              />
             </div>
             <div class="person person_name_cannon">
-              <img src="./images/person_cannon.png" alt="Annie Jump Cannon" class="person__image person__image_size_m">
+              <img
+                src="./images/person_cannon.png"
+                alt="Annie Jump Cannon"
+                class="person__image person__image_size_m"
+              />
               <p class="person__caption">Annie Jump Cannon</p>
             </div>
             <div class="person person_name_mitchell">
-              <img src="./images/person_mitchell.png" alt="Maria Mitchell" class="person__image person__image_size_s">
+              <img
+                src="./images/person_mitchell.png"
+                alt="Maria Mitchell"
+                class="person__image person__image_size_s"
+              />
               <p class="person__caption">Maria Mitchell</p>
             </div>
-         </div>
-      </section>
-    </main>
-
+          </div>
+        </section>
+        <section id="membership" class="membership">
+          <h2 class="membership__title">
+            ¡Convertirse en miembro es muy fácil!
+          </h2>
+          <ul class="membership__steps">
+            <li class="step step__one">
+              <h3 class="step__title">
+                Paso 1
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Completa el formulario de afiliación en línea o en persona.
+              </p>
+            </li>
+            <li class="step step__two">
+              <h3 class="step__title">
+                Paso 2
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Ven y recoge tu credencial de la biblioteca en la recepción.
+              </p>
+            </li>
+            <li class="step step__three">
+              <h3 class="step__title">
+                Paso 3
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">Firma el envés de la tarjeta.</p>
+            </li>
+            <li class="step step__four">
+              <h3 class="step__title">
+                Paso 4
+                <img
+                  src="./images/icon_step_finish.svg"
+                  alt="icon finish"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                ¡Disfruta de los increíbles beneficios de nuestra membresía!
+              </p>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <footer id="contacts" class="footer">
+        <section class="footer__columns">
+          <div class="footer__column footer__logo">
+            <img src="./images/logo_white.svg" alt="Logotipo" />
+          </div>
+          <div class="footer__column footer__column_content_hours">
+            <h2 class="footer__column-heading">Horario de apertura</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                Lunes a viernes: 9 a.m. - 8 p.m.
+              </li>
+              <li class="footer__list-item">
+                Sábados y domingos: 10 a.m. - 6 p.m.
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column footer__column_content_social">
+            <h2 class="footer__column-heading">Redes sociales</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link"
+                  ><span
+                    ><img
+                      src="./images/facebook_white.svg"
+                      alt="Facebook"
+                      class="footer__social-icon" /></span
+                  >Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link"
+                  ><span
+                    ><img
+                      src="./images/instagram_white.svg"
+                      alt="Instagram"
+                      class="footer__social-icon" /></span
+                  >Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="footer__copyright">
+          <p>© 2025 Patricia Higuera</p>
+        </section>
+      </footer>
     </div>
   </body>
 </html>

@@ -53,11 +53,11 @@
 }
 
 .header__title {
-  font-size:62px;
+  font-size: 62px;
   line-height: 76px;
   font-weight: 500;
-  max-width:635px;
-  margin-top:128px;
+  max-width: 635px;
+  margin-top: 128px;
   margin-bottom: 0;
 }
 
@@ -65,7 +65,7 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 515px;
-  margin-top:32px;
+  margin-top: 32px;
   margin-bottom: 0;
 }
 
@@ -119,12 +119,11 @@
   color: #ffffff;
 }
 
-.staff__cards
-{
+.staff__cards {
   max-width: 760px;
-  margin:68px auto 0 auto;
-  display:flex;
-  flex-wrap:wrap;
+  margin: 68px auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
   gap: 40px;
   justify-content: center;
   list-style-type: none;
@@ -136,7 +135,7 @@
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
-  width:360px;
+  width: 360px;
   height: 420px;
 }
 
@@ -258,26 +257,26 @@
 
 .person_name_burbidge {
   position: absolute;
-  top:96px;
-  right:125px;
+  top: 96px;
+  right: 125px;
 }
 
 .person_name_cannon {
   position: absolute;
-  bottom:18px;
-  right:216px;
+  bottom: 18px;
+  right: 216px;
 }
 
 .person_name_mitchell {
   position: absolute;
-  bottom:82px;
-  left:142px;
+  bottom: 82px;
+  left: 142px;
 }
 
 .person_name_tarter {
   position: absolute;
-  top:79px;
-  left:159px;
+  top: 79px;
+  left: 159px;
 }
 
 .person__image {
@@ -300,4 +299,128 @@
   text-align: center;
   font-size: 14px;
   margin: 0;
+}
+
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.step {
+  flex-basis: fit-content;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 0;
+}
+
+.step__one {
+  width: 100%;
+  max-width: 220px;
+}
+
+.step__two {
+  width: 100%;
+  max-width: 220px;
+}
+
+.step__three {
+  width: 100%;
+  min-width: 220px;
+}
+
+.step__four {
+  width: 100%;
+  max-width: 220px;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  padding: 60px 80px;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__column_content_hours {
+  color: white;
+  margin-left: auto;
+}
+
+.footer__column_content_social {
+  color: white;
+  margin-left: 80px;
+}
+
+.footer__logo {
+  width: 58px;
+  height: 80px;
+}
+
+.footer__column-heading {
+  margin-top: 20px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin-bottom: 16px;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.footer__copyright {
+  margin-top: 100px;
+  color: white;
 }
